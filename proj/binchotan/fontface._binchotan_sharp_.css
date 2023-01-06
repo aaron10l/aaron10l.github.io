@@ -1,0 +1,13 @@
+@charset "UTF-8"; /*! Binchotan_Sharp__400_.fontface.css !*/
+
+@font-face
+{
+	font-family: 'Binchotan_Sharp' ;
+	font-weight: normal ;
+	font-style: normal ;
+	src: url( './build/Binchotan_Sharp__400__(v_000_526)_.woff2' ) format( 'woff2' )
+	,	url( './build/Binchotan_Sharp__400__(v_000_526)_.woff' ) format( 'woff' )
+	,	url( './build/Binchotan_Sharp__400__(v_000_526)_.ttf' ) format( 'truetype' )
+	,	url( './build/Binchotan_Sharp__400__(v_000_526)_.otf' ) format( 'opentype' )
+	;
+}
