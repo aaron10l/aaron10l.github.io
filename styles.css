@@ -295,8 +295,10 @@ li{
     }
     html{
         height: 100vh;
+        overflow: hidden;
     }
     body{
+        overflow: auto;
         display: flex;
         flex-direction: column;
         height: 100vh;
