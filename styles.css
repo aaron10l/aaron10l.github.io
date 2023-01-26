@@ -271,9 +271,10 @@ li{
     }
 
     .footer{
-        margin-top: 30%;
+        margin-top: 50%;
         display: flex;
         flex-direction: row;
+        align-items: flex-start;
     }
 
     .footer .projs {
@@ -294,7 +295,8 @@ li{
     .footer img{
         padding: 0;
         margin: 0;
-        display: none;
+        margin-bottom: 10%;
+
     }
 
     .footer .projs p{
