@@ -257,3 +257,47 @@ li{
     filter: grayscale(100%);
 }
 
+@media screen and (max-width: 800px) {
+    .header, .middle, .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        height: 10vh;
+    }
+
+    .middle{
+        margin: 0;
+    }
+
+    .footer{
+        margin-top: 30%;
+        display: flex;
+    }
+
+    .footer .projs{
+        width: 40%;
+        justify-content: center;
+    }
+
+    .footer .projs p{
+        display: none;
+    }
+
+    .middle .contacts, .links, .socials{
+        margin-top: 5%;
+    }
+
+    .middle .right .rightbottom li{
+        margin-right: 10%;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    
+}
