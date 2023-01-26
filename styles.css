@@ -296,6 +296,7 @@ li{
     html{
         height: 100vh;
         overflow: hidden;
+        background-color: black;
     }
     body{
         overflow: auto;
@@ -303,6 +304,7 @@ li{
         flex-direction: column;
         height: 100vh;
         margin-top: 0;
+        background-color: black;
     }
 
     
