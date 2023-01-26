@@ -3,6 +3,31 @@
     src: url(/fonts/binochatan.ttf);
 }
 
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/Graphik-400-RegularItalic.otf') format("truetype"),
+        url('fonts/Graphik-RegularItalic.eot'),
+        url('fonts/Graphik-RegularItalic.svg'),
+        url('fonts/Graphik-RegularItalic.ttf'),
+        url('fonts/Graphik-RegularItalic.woff'),
+        url('fonts/Graphik-RegularItalic.woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT-America-Extended-Black';
+    src: url('fonts/GT-America-Extended-Black.woff'),
+        url('fonts/GT-America-Extended-Black.eot'),
+        url('fonts/GT-America-Extended-Black.otf'),
+        url('fonts/GT-America-Extended-Black.ttf'),
+        url('fonts/GTAmerica-ExtendedBlack.eot'),
+        url('fonts/GTAmerica-ExtendedBlack.svg'),
+        url('fonts/GTAmerica-ExtendedBlack.woff2');
+    font-display: swap;
+}
+
+
 body{
     background-image: linear-gradient(to bottom right, black, #292827);
 }
@@ -13,6 +38,7 @@ body{
     font-family: myFirstFont;
 
 }
+
 
 .header{
     height: 20vh;
@@ -257,6 +283,11 @@ li{
 }
 
 @media screen and (max-width: 800px) {
+
+    body{
+        font-family: 'Graphik';
+    }
+
     .header, .middle, .footer{
         flex-direction: column;
         align-items: center;
