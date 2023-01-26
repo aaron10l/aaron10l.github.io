@@ -3,7 +3,6 @@
     src: url(/fonts/binochatan.ttf);
 }
 
-
 body{
     background-image: linear-gradient(to bottom right, black, #292827);
 }
@@ -276,10 +275,23 @@ li{
         display: flex;
     }
 
-    .footer .projs{
+    .footer .projs {
         width: 40%;
-        justify-content: center;
         padding: 0;
+    }
+
+
+
+    .footer .projs .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer img{
+        padding: 0;
+        margin: 0;
     }
 
     .footer .projs p{
@@ -295,11 +307,10 @@ li{
     }
     html{
         height: 100vh;
-        overflow: hidden;
         background-color: black;
     }
     body{
-        overflow: auto;
+        margin: 0;
         display: flex;
         flex-direction: column;
         height: 100vh;
