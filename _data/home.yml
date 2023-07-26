@@ -68,13 +68,13 @@ project_entries:
 
 
 education_entries:
-  # - title: University of Michigan, Ann Arbor MI
-  #   duration: Expected Dec 2023
-  #   url: false
-  #   entries:
-  #     - title: Courses
-  #       description: Design and Analysis of Algorithms, Advanced Compilers
-  #       url: false
+  - title: University of Michigan, Ann Arbor MI
+    duration: Expected Dec 2023
+    url: false
+    entries:
+      - title: Courses
+        description: Design and Analysis of Algorithms, Advanced Compilers
+        url: false
 
 footer_entries:
   - title: resume
