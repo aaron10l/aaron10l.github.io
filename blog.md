@@ -1,4 +1,4 @@
 ---
 layout: blog
-title: Blog # Blog | Zhixiang Teoh
+title: Blog 
 ---

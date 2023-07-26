@@ -1,16 +1,16 @@
 # Site Settings
 ######################
-title: Zhixiang Teoh
-author: Zhixiang Teoh
-email: zhixiangteoh@gmail.com
+title: Aaron Alvarez
+author: Aaron Alvarez
+email: aaronalvarez7394@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer science and engineering student from Singapore studying at the University of Michigan, Ann Arbor.
+  Software engineer and computer science student studying at the University of Cincinnati.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zhixiangteoh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: zhixiangteoh
-github_username: zhixiangteoh
-facebook_username: teoh.zhixiang
-twitter_username: zhixiangteoh
+url: "https://aaron10l.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: aaronisme
+github_username: aaron10l
+facebook_username: aaron
+twitter_username: aaron10l
 
 permalink: /:slug.html
 

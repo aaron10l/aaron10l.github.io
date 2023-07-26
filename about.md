@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Me # About Me | Zhixiang Teoh
+title: About Me 
 permalink: /about/
 show_footer: true
 mathjax: true
