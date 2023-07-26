@@ -51,7 +51,8 @@ experience_entries:
 project_entries:
   - title: Contextualized.ml
     url: hazel-post
-    desc: a contextualized machine learning toolkit for easy, understandable ML
+    desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
+    highlight: WIP
 
   - title: Laundrivr
     url: webxr-layers-post
@@ -64,7 +65,6 @@ project_entries:
   - title: Diversidy
     url: core-post
     desc: A full stack web app that helps users diversify their investment portfolios
-    highlight: WIP
 
 
 education_entries:
