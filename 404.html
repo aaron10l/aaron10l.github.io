@@ -1,12 +1,13 @@
 ---
 permalink: /404.html
-layout: post
+layout: default
 ---
+<a href="{{ site.url }}">{{ site.theme_config.back_home_text }}</a>
 
 <style type="text/css" media="screen">
   .container {
-    margin: 1em auto;
-    max-width: 60em;
+    margin: 10px auto;
+    max-width: 600px;
     text-align: center;
   }
   h1 {
@@ -18,8 +19,5 @@ layout: post
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <img src="{{ site.url }}/404_meme.jpg" alt="404 Page Not Found :(" title="In all seriousness, check your URL?">
 </div>
