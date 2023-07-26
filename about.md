@@ -7,7 +7,7 @@ mathjax: true
 timeline_collection: Education # heading for timeline
 ---
 
-I'm a sophomore [Computer Science](https://ceas.uc.edu/academics/departments/computer-science.html) undergraduate student from Houston, TX studying at the University of Cincinnati. I'm currently an Undergraduate Researcher with the Kellis lab at the Massachussetts Institute of Technology.
+I'm a sophomore [Computer Science](https://ceas.uc.edu/academics/departments/computer-science.html) undergraduate student from Houston, TX studying at the University of Cincinnati. I'm currently an Undergraduate Researcher with the Kellis lab at the Massachusetts Institute of Technology.
 
 Most recently, I was a software engineer intern at [Elevance Health](https://www.elevancehealth.com/) on the AI/ML team, and prior to that, a software engineer at [Millspaw Electronics](https://millspawelectronics.com).
 
