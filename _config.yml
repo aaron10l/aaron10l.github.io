@@ -6,7 +6,7 @@ email: aaronalvarez7394@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software engineer and computer science student studying at the University of Cincinnati.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aaron10l.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://aaronalvarez.me/" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: aaronisme
 github_username: aaron10l
 facebook_username: aaron
