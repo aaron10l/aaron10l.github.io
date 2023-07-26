@@ -55,7 +55,7 @@ project_entries:
 
   - title: Laundrivr
     url: webxr-layers-post
-    desc: Immersive web video experiences interfacing WebXR Media Layers API, extending Three.js
+    desc: A mobile app simplifying laundry management across college campuses
 
   - title: MC Options Pricer
     url: slatevim-post
