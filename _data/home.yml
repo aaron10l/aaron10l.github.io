@@ -12,119 +12,44 @@ navbar_entries:
     url: blog
 
 experience_entries:
-  - title: Graduate Student Instructor - Foundations of CS, University of Michigan College of Engineering
-    duration: Jan 2023 - Present
-    url: https://eecs376.org
-    entries:
-      - title: Graduate teaching assistant
-        description: for the same class that I was an instructional aide for during my undergraduate degree. Greater administrative responsibilities and 20 hours per week.
-        url: false
-
-  - title: Software Engineer Intern, Google
-    duration: May 2022 - August 2022
+  - title: Undergraduate Researcher, Massachusetts Institute of Technology
+    duration: July 2023 - Present
     url: false
     entries:
-      - title: Smart text selection and entity detection
-        description: for Chrome on iOS, Chrome Intelligence team
+      - title: Developing a contextualized machine learning toolkit
+        description: for estimating models, distributions, and functions with context-specific parameters.
         url: false
 
-  - title: Instructional Aide - Foundations of CS, University of Michigan College of Engineering
-    duration: Jan 2022 - Dec 2022
-    url: https://eecs376.org
+  - title: Software Engineer Intern, Elevance Health
+    duration: May 2023 - August 2023
+    url: false
     entries:
-      - title: Teaching assistant
-        description: for class of 700 students, on complexity classes, algorithm design, dynamic programming, automata, Turing Machines, computability, Turing and polynomial time reductions, and cryptography
-        url: false
-      - title: Responsibilities include
-        description: leading discussion sections, hosting individual office hours, writing and evaluting homework and exam questions, and administrative duties
+      - title: Natural Language Processing model development
+        description: for smart search applications
         url: false
 
-  - title: Backend Engineer Intern, Pop Social Inc.
+  - title: SIG Discovery Day, Susquehanna International Group
+    duration: Mar 2023 - Apr 2023
+    url: false
+    entries:
+      - title: Solved complex trading puzzles 
+        description: developed algorithmic trading strategies in a competition against other participants
+        url: false
+
+  - title: Software Engineer Intern, Millspaw Electronics
     duration: May 2021 - May 2022
     url: https://popsocial.app/
     entries:
-      - title: Increase test code coverage
-        description: by 90%, automate documentation, make type-safe and object-oriented
+      - title: Developed machine learning models for anomaly detection
+        description: for failure in industrial systems
         url: false
 
-      - title: Design backend schemes and wrote design documentation
-        description: for secure image upload with Google Cloud buckets, and scalable search
-        url: false
-
-      - title: Create object-oriented, type-safe, and OpenAPI-documented
-        description: Node.js API for newest core feature
-        url: false
-
-  - title: Site Reliability Engineering (SRE) Software Engineer Intern, Benefitfocus
-    duration: May 2021 - Aug 2021
-    url: https://www.benefitfocus.com/
-    entries:
-      - title: Development Operations (DevOps)
-        description: writing deployment scripts, automation tasks for continuous integration and delivery (CI/CD)
-        url: false
-
-  - title: MLH Open Source Fellow - WebXR, Major League Hacking
-    duration: Jan 2021 - Apr 2021
-    url: https://github.com/MLH-Fellowship/webxr-samples
-    entries:
-      - title: Open Source Program, JavaScript
-        description: Spring 2021
-        url: false
-
-      - title: Contributing to WebXR project
-        description: building immersive WebXR video experiences using three.js rendering library and the new Media Layers API
-        url: https://immersive-web.github.io/layers/#videolayer
-
-      - title: Extend samples to support different types of media
-        description: including 2D, 180/360-degree mono and stereo
-        url: false
-
-  - title: Software Engineering, National University of Singapore
-    duration: Aug 2020 - Dec 2020
-    url: https://ay2021s1-cs2113-t14-2.github.io/tp/
-    entries:
-      - title: Computer Science module
-        description: introducing real-world applications of software engineering concepts, in Java
-        url: false
-
-      - title: Team Command Line Interface (CLI) project
-        description: that applies OOP concepts like abstraction and encapsulation, Java 8 Streams, and unit and integration testing
-        url: false
-
-      - title: Wrote 3500/6000 lines of code
-        description: including main Game Mode, and 40% of user and developer docs
-        url: https://ay2021s1-cs2113-t14-2.github.io/tp/team/zhixiangteoh.html
-
-      - title: Managed issues and releases
-        description: and authored over 40 PRs in two months
-        url: https://github.com/AY2021S1-CS2113-T14-2/tp/pulls?q=is%3Apr+is%3Aclosed+author%3Azhixiangteoh+
-
-  - title: Teaching Assistant and Peer Tutor, University of Pittsburgh Computing
-    duration: Jan 2020 - Dec 2020
-    url: false
-    entries:
-      - title: CS 0445 Data Structures and Algorithms I
-        description: Timothy Hoffman
-        url: false
-
-      - title: CS 0401 Intermediate Programming using Java
-        description: Michael Devine
-        url: false
-        entries:
-          - title: UTA OMETS teaching survey
-            description: Highest response rate (40%) for Intermediate Programming, with 80% of evaluations at “Strongly Agree” for all questions
-            url: https://www.teohzhixiang.com/resume/assets/pdf/omets_0401_fall2020.pdf
-
-      - title: Labs and office hours
-        description: Designed material for labs, and engaged students in labs and office hours; 20h/week
-        url: https://drive.google.com/drive/u/0/folders/1rg_ei3SXWZuU_enc-AiNw8wm7HNDQs_7
-
-      - title: Student tutor
-        description: in the Math Assistance Center and CS Resource Center, up to Linear Algebra and Algorithms
+      - title: Deployed model with Kubernetes
+        description: running on Jetson Nanos for reliability
         url: false
 
 project_entries:
-  - title: Hazel
+  - title: Contextualized.ml
     url: hazel-post
     desc: Undergraduate research member at the Future of Programming Lab at the University of Michigan
 
