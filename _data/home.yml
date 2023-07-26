@@ -51,68 +51,30 @@ experience_entries:
 project_entries:
   - title: Contextualized.ml
     url: hazel-post
-    desc: Undergraduate research member at the Future of Programming Lab at the University of Michigan
+    desc: a contextualized machine learning toolkit for easy, understandable ML
 
-  - title: WebXR
+  - title: Laundrivr
     url: webxr-layers-post
     desc: Immersive web video experiences interfacing WebXR Media Layers API, extending Three.js
 
-  - title: SlateVim
+  - title: Monte Carlo Options Pricer
     url: slatevim-post
-    desc: An online collaborative Vim document editor built with Slate.js and AWS Amplify
+    desc: A tool to calculate the fair value of derivatives using monte carlo simulations
 
-  - title: Co-Re MERN
+  - title: Diversidy
     url: core-post
-    desc: Course Review website built on MERN stack with Redux authentication and Algolia search
+    desc: A full stack web app that helps users diversify their investment portfolios
     highlight: WIP
 
-  - title: eCardnomics
-    url: ecardnomics-post
-    desc: Team CLI project developed over two months, in which I wrote 3500/6000 lines of code
-
-  - title: Retrospective Tracker
-    url: retrospective-tracker-post
-    desc: Browser extension to conveniently create and track weekly retrospectives for the MLH Fellowship.
 
 education_entries:
-  - title: University of Michigan, Ann Arbor MI
-    duration: Expected Dec 2023
-    url: false
-    entries:
-      - title: Courses
-        description: Design and Analysis of Algorithms, Advanced Compilers
-        url: false
-  - title: University of Michigan, Ann Arbor MI
-    duration: Jan 2021 - Dec 2022
-    url: false
-    entries:
-      - title: Courses
-        description: Programming and Data Structures, Discrete Math, Numerical Methods
-        url: false
-      - title: Summa Cum Laude
-        description: GPA 3.94
-        url: false
-
-  - title: National University of Singapore, Singapore
-    duration: Aug 2020 - Dec 2020
-    url: false
-    entries:
-      - title: Courses
-        description: Software Engineering, Programming Language Concepts, Theory of Computation, Ordinary Differential Equations
-        url: false
-
-  - title: University of Pittsburgh, Pittsburgh PA
-    duration: Aug 2019 - Dec 2020
-    footer: Pitt Math Club!
-    url: false
-    entries:
-      - title: Courses
-        description: Computer Organization and Assembly Language, Data Structures, Algorithms, Intro to Machine Learning, Multivariable Calculus, Linear Algebra
-        url: false
-
-      - title: Honors College
-        description: GPA 4.0
-        url: false
+  # - title: University of Michigan, Ann Arbor MI
+  #   duration: Expected Dec 2023
+  #   url: false
+  #   entries:
+  #     - title: Courses
+  #       description: Design and Analysis of Algorithms, Advanced Compilers
+  #       url: false
 
 footer_entries:
   - title: resume
