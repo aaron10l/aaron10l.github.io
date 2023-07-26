@@ -82,16 +82,16 @@ footer_entries:
     icon: fas fa-file
 
   - title: linkedin
-    url: https://www.linkedin.com/in/zhixiangteoh
+    url: https://www.linkedin.com/in/aaronisme
     icon: fab fa-linkedin
 
   - title: github
-    url: https://github.com/zhixiangteoh
+    url: https://github.com/aaron10l
     icon: fab fa-github
 
   - title: facebook
-    url: https://facebook.com/teoh.zhixiang
-    icon: fab fa-facebook
+    url: https://twitter.com/aaron10l
+    icon: fab fa-twitter
 
 misc_entries:
   - title: example
