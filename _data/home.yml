@@ -17,7 +17,7 @@ experience_entries:
     url: false
     entries:
       - title: Developing a contextualized machine learning toolkit
-        description: for estimating models, distributions, and functions with context-specific parameters.
+        description: for estimating models, distributions, and functions with context-specific parameters
         url: false
 
   - title: Software Engineer Intern, Elevance Health
@@ -33,7 +33,7 @@ experience_entries:
     url: false
     entries:
       - title: Solved complex trading puzzles 
-        description: developed algorithmic trading strategies in a competition against other participants
+        description: and developed algorithmic trading strategies in a competition against other participants
         url: false
 
   - title: Software Engineer Intern, Millspaw Electronics
