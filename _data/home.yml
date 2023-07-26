@@ -57,7 +57,7 @@ project_entries:
     url: webxr-layers-post
     desc: Immersive web video experiences interfacing WebXR Media Layers API, extending Three.js
 
-  - title: Monte Carlo Options Pricer
+  - title: MC Options Pricer
     url: slatevim-post
     desc: A tool to calculate the fair value of derivatives using monte carlo simulations
 
