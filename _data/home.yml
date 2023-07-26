@@ -68,17 +68,17 @@ project_entries:
 
 
 education_entries:
-  - title: University of Michigan, Ann Arbor MI
-    duration: Expected Dec 2023
+  - title: University of Cincinnati
+    duration: Expected May 2027
     url: false
     entries:
       - title: Courses
-        description: Design and Analysis of Algorithms, Advanced Compilers
+        description: Computer Science 1, Engineering Principles
         url: false
 
 footer_entries:
   - title: resume
-    url: https://zhixiangteoh.github.io/resume
+    url: https://aaron10l.github.io/resume
     icon: fas fa-file
 
   - title: linkedin
