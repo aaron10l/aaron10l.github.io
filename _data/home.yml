@@ -1,0 +1,97 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: experiences
+    url: "#experiences"
+
+  - title: projects
+    url: "#projects"
+
+  - title: blog
+    url: blog
+
+experience_entries:
+  - title: Undergraduate Researcher, Massachusetts Institute of Technology
+    duration: July 2023 - Present
+    url: false
+    entries:
+      - title: Developing a contextualized machine learning toolkit
+        description: for estimating models, distributions, and functions with context-specific parameters
+        url: false
+
+  - title: Software Engineer Intern, Elevance Health
+    duration: May 2023 - August 2023
+    url: false
+    entries:
+      - title: Natural Language Processing model development
+        description: for smart search applications
+        url: false
+
+  - title: SIG Discovery Day, Susquehanna International Group
+    duration: Mar 2023 - Apr 2023
+    url: false
+    entries:
+      - title: Solved complex trading puzzles 
+        description: and developed algorithmic trading strategies in a competition against other participants
+        url: false
+
+  - title: Software Engineer Intern, Millspaw Electronics
+    duration: May 2021 - May 2022
+    url: https://popsocial.app/
+    entries:
+      - title: Developed machine learning models for anomaly detection
+        description: for failure in industrial systems
+        url: false
+
+      - title: Deployed model with Kubernetes
+        description: running on Jetson Nanos for reliability
+        url: false
+
+project_entries:
+  - title: Contextualized.ml
+    url: hazel-post
+    desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
+    highlight: WIP
+
+  - title: Laundrivr
+    url: webxr-layers-post
+    desc: A mobile app simplifying laundry management across college campuses
+
+  - title: MC Options Pricer
+    url: slatevim-post
+    desc: A tool to calculate the fair value of derivatives using monte carlo simulations
+
+  - title: Diversidy
+    url: core-post
+    desc: A full stack web app that helps users diversify their investment portfolios
+
+
+education_entries:
+  - title: University of Cincinnati
+    duration: Expected May 2027
+    url: false
+    entries:
+      - title: Courses
+        description: Computer Science 1, Engineering Principles
+        url: false
+
+footer_entries:
+  - title: resume
+    url: https://aaron10l.github.io/resume
+    icon: fas fa-file
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/aaronisme
+    icon: fab fa-linkedin
+
+  - title: github
+    url: https://github.com/aaron10l
+    icon: fab fa-github
+
+  - title: facebook
+    url: https://twitter.com/aaron10l
+    icon: fab fa-twitter
+
+misc_entries:
+  - title: example
