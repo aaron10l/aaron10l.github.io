@@ -59,7 +59,7 @@ project_entries:
     desc: A mobile app simplifying laundry management across college campuses
 
   - title: MC Options Pricer
-    url: slatevim-post
+    url: monte-carlo-pricing
     desc: A tool to calculate the fair value of derivatives using monte carlo simulations
 
   - title: Diversidy
