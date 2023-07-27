@@ -63,7 +63,7 @@ project_entries:
     desc: A tool to calculate the fair value of derivatives using monte carlo simulations
 
   - title: Diversidy
-    url: core-post
+    url: diversidy
     desc: A full stack web app that helps users diversify their investment portfolios
 
 
