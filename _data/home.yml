@@ -55,7 +55,7 @@ project_entries:
     highlight: WIP
 
   - title: Laundrivr
-    url: webxr-layers-post
+    url: laundrivr-app
     desc: A mobile app simplifying laundry management across college campuses
 
   - title: MC Options Pricer
