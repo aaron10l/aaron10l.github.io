@@ -50,7 +50,7 @@ experience_entries:
 
 project_entries:
   - title: Contextualized.ml
-    url: hazel-post
+    url: contextualized-ml # hazel-post
     desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
     highlight: WIP
 
