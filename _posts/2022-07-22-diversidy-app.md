@@ -3,15 +3,14 @@ title: Diversidy
 layout: post
 show_footer: true
 permalink: /diversidy-app
-github_link: https://github.com/cnellington/Contextualized
+github_link: https://github.com/aaron10l/diversidy
 tags: 
-    - Open Source
-    - Research
-    - Team
-    - Python
-    - Machine Learning
-    - Artificial Intelligence
-    - Pytorch
+    - Finance
+    - Investing
+    - React
+    - MongoDB
+    - JavaScript
+    - Node
 ---
 
 <span style="color: red">Page under development! Please check out the source link.</span>
