@@ -2,7 +2,7 @@
 title: Diversidy
 layout: post
 show_footer: true
-permalink: /diversidy
+permalink: /diversidy-app
 github_link: https://github.com/aaron10l/diversidy
 tags: 
     - Finance
