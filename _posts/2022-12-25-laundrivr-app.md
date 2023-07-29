@@ -3,7 +3,7 @@ title: Laundrivr
 layout: post
 show_footer: true
 permalink: /laundrivr-app
-github_link: https://github.com/cnellington/Contextualized
+github_link: https://github.com/laundrivr
 tags: 
     - iOS
     - Team

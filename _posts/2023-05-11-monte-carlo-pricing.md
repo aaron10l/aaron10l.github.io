@@ -3,13 +3,13 @@ title: Monte Carlo Options Pricer
 layout: post
 show_footer: true
 permalink: /monte-carlo-pricing
-github_link: https://github.com/cnellington/Contextualized
+github_link: https://github.com/aaron10l/monte-carlo-pricing
 tags: 
     - Finance
     - Modeling
     - Python
-    - Machine Learning
-    - Artificial Intelligence
+    - Derivatives
+    - Quantitative Finance
     - Pricing
 ---
 
