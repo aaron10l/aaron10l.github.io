@@ -57,7 +57,7 @@ project_entries:
     url: laundrivr-app
     desc: A mobile app simplifying laundry management across college campuses
 
-  - title: Diversidy Web App
+  - title: Diversidy
     url: diversidy-app
     desc: a full stack web application to help users manage their investment diversification
 
