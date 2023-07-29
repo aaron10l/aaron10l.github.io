@@ -57,6 +57,10 @@ project_entries:
     url: laundrivr-app
     desc: A mobile app simplifying laundry management across college campuses
 
+  - title: Diversidy Web App
+    url: diversidy-app
+    desc: a full stack web application to help users manage their investment diversification
+
   - title: MC Options Pricer
     url: monte-carlo-pricing
     desc: A tool to calculate the fair value of derivatives using monte carlo simulations
