@@ -24,8 +24,8 @@ experience_entries:
     duration: May 2023 - August 2023
     url: false
     entries:
-      - title: Natural Language Processing model development
-        description: for smart search applications
+      - title: Developed Natural Language Processing models
+        description: for smart search applications using the Rasa framework with SpaCy and DIETClassifier
         url: false
 
   - title: SIG Discovery Day, Susquehanna International Group
@@ -40,7 +40,7 @@ experience_entries:
     duration: May 2021 - May 2022
     entries:
       - title: Developed machine learning models for anomaly detection
-        description: for failure in industrial systems
+        description: for failure in industrial systems with Tensorflow
         url: false
 
       - title: Deployed model with Kubernetes
@@ -55,7 +55,7 @@ project_entries:
 
   - title: Laundrivr
     url: laundrivr-app
-    desc: A mobile app simplifying laundry management across college campuses
+    desc: a mobile app simplifying laundry management across college campuses
 
   - title: Diversidy
     url: diversidy-app
@@ -63,7 +63,7 @@ project_entries:
 
   - title: MC Options Pricer
     url: monte-carlo-pricing
-    desc: A tool to calculate the fair value of derivatives using monte carlo simulations
+    desc: a tool to calculate the fair value of derivatives using monte carlo simulations
 
 
 education_entries:
