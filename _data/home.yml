@@ -53,13 +53,14 @@ project_entries:
     desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
     highlight: WIP
 
+  - title: Matching Engine
+    url: matching-engine
+    desc: a fast order matching engine written in c++
+    highlight: WIP
+
   - title: Laundrivr
     url: laundrivr-app
     desc: a mobile app simplifying laundry management across college campuses
-
-  - title: Diversidy
-    url: diversidy-app
-    desc: a full stack web application to help users manage their investment diversification
 
   - title: MC Options Pricer
     url: monte-carlo-pricing
