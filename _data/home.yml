@@ -65,6 +65,10 @@ project_entries:
   - title: MC Options Pricer
     url: monte-carlo-pricing
     desc: a tool to calculate the fair value of derivatives using monte carlo simulations
+    
+  - title: Free Lunch Bot
+    url: reddit-free-lunch
+    desc: a bot that lets you know when free food is posted on reddit
 
 
 education_entries:
