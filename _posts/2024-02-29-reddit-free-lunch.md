@@ -1,4 +1,3 @@
-
 ---
 title: Free Lunch Bot
 layout: post
