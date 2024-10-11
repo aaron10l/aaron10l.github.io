@@ -12,11 +12,19 @@ navbar_entries:
     url: blog
 
 experience_entries:
-  - title: Undergraduate Researcher, Massachusetts Institute of Technology
-    duration: July 2023 - Present
+  - title: Software Engineer Intern, Chan Zuckerberg Biohub
+    duration: May 2024 - Aug 2024
     url: false
     entries:
-      - title: Developing a contextualized machine learning toolkit
+      - title: Worked on Python interfaces for microscope hardware
+        description: as well as computer vision pipelines for processing huge 5-d datasets
+        url: false
+
+  - title: Undergraduate Researcher, Massachusetts Institute of Technology
+    duration: Aug 2023 - May 2024
+    url: false
+    entries:
+      - title: Developed a Python package toolkit
         description: for estimating models, distributions, and functions with context-specific parameters
         url: false
 
