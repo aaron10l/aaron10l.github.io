@@ -100,9 +100,9 @@ education_entries:
         url: false
 
 footer_entries:
-  - title: resume
-    url: https://aaron10l.github.io/resume
-    icon: fas fa-file
+  # - title: resume
+  #   url: https://aaron10l.github.io/resume
+  #   icon: fas fa-file
 
   - title: linkedin
     url: https://www.linkedin.com/in/aaronisme
