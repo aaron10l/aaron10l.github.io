@@ -16,8 +16,11 @@ experience_entries:
     duration: May 2024 - Aug 2024
     url: false
     entries:
-      - title: Worked on Python interfaces for microscope hardware
-        description: as well as computer vision pipelines for processing huge 5-d datasets
+      - title: Worked on Python interfaces for controlling microscope hardware.
+        description: Allowed users to perform patterned ablations via live microscope viewport
+        url: false
+      - title: Worked on data pipelines for 5-d microscope imaging data sets
+        description: involving steps like conversion, deconvolution, virtual staining
         url: false
 
   - title: Undergraduate Researcher, Massachusetts Institute of Technology
@@ -27,13 +30,22 @@ experience_entries:
       - title: Developed a Python package toolkit
         description: for estimating models, distributions, and functions with context-specific parameters
         url: false
+      - title: Implemented a sequential testing utility function
+        description: to identify significant context-feature relationships
+        url: false
+      - title: Optimized runtime for projecting a weighted graph
+        description: to a directed acyclic graph
+        url: false
 
   - title: Software Engineer Intern, Elevance Health
     duration: May 2023 - August 2023
     url: false
     entries:
-      - title: Developed Natural Language Processing models
-        description: for smart search applications using the Rasa framework with SpaCy and DIETClassifier
+      - title: Developed Natural Language Processing search bar
+        description: for smart search of in house applications using Rasa and Python
+        url: false
+      - title: Established a MongoDB pipeline
+        description: to enable model retraining
         url: false
 
   - title: SIG Discovery Day, Susquehanna International Group
@@ -48,7 +60,7 @@ experience_entries:
     duration: May 2021 - May 2022
     entries:
       - title: Developed machine learning models for anomaly detection
-        description: for failure in industrial systems with Tensorflow
+        description: for failure in industrial systems with Tensorflow and Python
         url: false
 
       - title: Deployed model with Kubernetes
