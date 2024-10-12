@@ -13,7 +13,7 @@ Most recently, I was a software engineer intern at the [Chan Zuckerberg Biohub](
 
 I am interested in distributed systems, backend development, and machine learning. Lately, I have been learning Go and working on some interesting web apps for the housing market...
 
-Outside of class, I enjoy listening to live music, hitting the gym, and fishin' missions.
+Outside of class, I enjoy listening to live music, hitting the gym, and fishing.
 
 ![fishing](images/fishin.jpg)
 
