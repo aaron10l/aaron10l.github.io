@@ -56,23 +56,22 @@ experience_entries:
         url: false
 
 project_entries:
+  - title: Housing Trend Tracker
+    url: housing-track
+    desc: a data aggregator to track residential developers movements - purchases and sales
+    highlight: WIP
+
+  - title: Consensus for LLMs
+    url: consensus-ai
+    desc: a web app leveraging LLM voting for better responses, made at berkeley ai hackathon
+
   - title: Contextualized.ml
     url: contextualized-ml # hazel-post
     desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
-    highlight: WIP
 
   - title: Matching Engine
     url: matching-engine
     desc: a fast order matching engine written in c++
-    highlight: WIP
-
-  - title: Laundrivr
-    url: laundrivr-app
-    desc: a mobile app simplifying laundry management across college campuses
-
-  - title: MC Options Pricer
-    url: monte-carlo-pricing
-    desc: a tool to calculate the fair value of derivatives using monte carlo simulations
     
   - title: Free Lunch Bot
     url: reddit-free-lunch
@@ -81,7 +80,7 @@ project_entries:
 
 education_entries:
   - title: University of Cincinnati
-    duration: Expected May 2027
+    duration: Expected May 2026
     url: false
     entries:
       - title: Courses
