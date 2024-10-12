@@ -15,8 +15,7 @@ I am interested in distributed systems, backend development, and machine learnin
 
 Outside of class, I enjoy listening to live music, hitting the gym, and fishin' missions.
 
-<!-- ![fishing](images/fishin.jpg) -->
-<img src="images/fishin.jpg" alt="fishing" width="300"/>
+![fishing](images/fishin.jpg)
 
 My favorite quote:
 
