@@ -15,6 +15,8 @@ I am interested in distributed systems, backend development, and machine learnin
 
 Outside of class, I enjoy listening to live music, hitting the gym, and fishin' missions.
 
+![fishing](images/fishin.jpg)
+
 My favorite quote:
 
 > Sometimes it’s the people no one imagines anything of who do the things that no one can imagine.
