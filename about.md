@@ -7,13 +7,15 @@ mathjax: true
 timeline_collection: Education # heading for timeline
 ---
 
-Thanks for looking at my personal website! I am an undergraduate [Computer Science](https://ceas.uc.edu/academics/departments/computer-science.html) student studying at the University of Cincinnati. Check out my first [publication](https://joss.theoj.org)!
+**Check out my first [publication](https://joss.theoj.org)!**
 
-Most recently, I was a software engineer intern at the [Chan Zuckerberg Biohub](https://www.elevancehealth.com/) in SF (obligatory blog post coming soon...).
+Thanks for looking at my personal website! I am an undergraduate [Computer Science](https://ceas.uc.edu/academics/departments/computer-science.html) student studying at the University of Cincinnati. 
 
-I am interested in distributed systems, backend development, and machine learning. Lately, I have been learning Go and working on some interesting web apps for the housing market...
+Most recently, I was a software engineer intern at the [Netflix](https://www.elevancehealth.com/) in Los Gatos, CA, where I worked on the Testing, Integration, and Productivity team (formerly known as MoPro). I worked on improving the visiblity into Netflix's device testing labs.
 
-Outside of class, I enjoy listening to live music, hitting the gym, and fishing.
+I am interested in distributed systems, backend development, and machine learning. Lately, I have been [reading](https://understandingdistributed.systems) and working on AI systems for tabular data.
+
+Outside of class, I enjoy listening to live music, fishing, and playing basketball.
 
 ![fishing](images/fishin.jpg)
 
