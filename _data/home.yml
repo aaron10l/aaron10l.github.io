@@ -79,10 +79,10 @@ experience_entries:
         url: false
 
 project_entries:
-  - title: Housing Trend Tracker
-    url: housing-track
-    desc: a data aggregator to track residential developers movements - purchases and sales
-    highlight: WIP
+  - title: Intelligible AI
+    url: intelligible-ai
+    desc: AI for tabular datasets
+    highlight: Work In Progress
 
   - title: Consensus for LLMs
     url: consensus-ai
