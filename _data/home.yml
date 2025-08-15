@@ -82,7 +82,7 @@ project_entries:
   - title: Intelligible AI
     url: intelligible-ai
     desc: AI for tabular datasets
-    highlight: Work In Progress
+    highlight: WIP
 
   - title: Consensus for LLMs
     url: consensus-ai
