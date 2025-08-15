@@ -81,7 +81,7 @@ experience_entries:
 project_entries:
   - title: Intelligible AI
     url: intelligible-ai
-    desc: AI for tabular datasets
+    desc: AI for explaining tabular datasets. Founded by prev collaborators at MIT
     highlight: WIP
 
   - title: Consensus for LLMs
