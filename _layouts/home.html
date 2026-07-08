@@ -8,16 +8,32 @@ layout: default
   <div class="dashed" />
   {% endif %}
 
-  <h1>{{ site.title }}</h1>
+  <h1>Welcome!</h1>
   {% if site.theme_config.show_description == true %}
   <p>{{ site.description }}</p>
   {% endif %}
+  <p>I am mostly interested in:</p>
+  <ul>
+    <li><strong>AI Agents.</strong> I've built a few now and automating real workflows end-to-end is a genuinely hard and interesting problem.</li>
+    <li><strong>Distributed Systems.</strong> Scaling systems to handle real load without them falling apart is something I find really satisfying to work on.</li>
+    <li><strong>LLM Evaluation & Reasoning.</strong> I like to stay up to date with new research. Building evals that push the limitations of models is pretty fun.</li>
+  </ul>
 </header>
 
 {% if site.theme_config.show_projects == true %}
 <h2 id="projects">Featured Projects</h2>
-{% include card_list.html collection=site.data.home.project_entries %} {% endif
-%} {% if site.theme_config.show_experiences == true %}
+<ul class="project-list">
+  {% for item in site.data.home.project_entries %}
+  <li>
+    {% if item.image %}<img src="{{ item.image }}" alt="{{ item.title }}" class="project-thumb">{% endif %}
+    <div>
+      <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+      {% if item.desc %}<span class="project-desc">{{ item.desc }}</span>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %} {% if site.theme_config.show_experiences == true %}
 <h2 id="experiences">Experiences</h2>
 {% include timeline.html collection_name=page.timeline_collection
 collection=site.data.home.experience_entries %} {% endif %}
@@ -37,5 +53,12 @@ collection=site.data.home.experience_entries %} {% endif %}
 %}
 <h2>Old Projects</h2>
 {% include card_list.html collection=site.data.home.old_project_entries %} {%
-endif %} {% if site.theme_config.show_footer == true %} {% include footer.html
+endif %}
+
+{% if site.theme_config.show_publications == true %}
+<h2 id="publications">Publications</h2>
+{% include vertical_list.html collection=site.data.home.publication_entries %}
+{% endif %}
+
+{% if site.theme_config.show_footer == true %} {% include footer.html
 %} {% endif %}
