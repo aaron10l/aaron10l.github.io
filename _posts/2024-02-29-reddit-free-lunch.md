@@ -1,5 +1,6 @@
 ---
 title: Free Lunch Bot
+published: false
 layout: post
 show_footer: true
 permalink: /reddit-free-lunch
