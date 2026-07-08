@@ -102,15 +102,15 @@ html {
 @mixin dark-appearance {
   html,
   body {
-    --headings: #74c0fc;
-    --links: #91a7ff;
-    --highlight: #41c7c7;
-    --bg: #1f242a;
-    --bg-secondary: #323945;
-    --text: #adb5bd;
-    --text-secondary: #fff;
-    --code-text: #91a7ff;
-    --share-text: #c4c4c4;
+    --headings: #e2e2e2;
+    --links: #4ec9b0;
+    --highlight: #3a3d41;
+    --bg: #1e1e1e;
+    --bg-secondary: #252526;
+    --text: #b8b8b8;
+    --text-secondary: #ffffff;
+    --code-text: #ce9178;
+    --share-text: #6e6e6e;
   }
 }
 html[data-theme="dark"] {
