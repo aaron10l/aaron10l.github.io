@@ -7,7 +7,7 @@ github_link: https://github.com/aaron10l/matching-engine
 tags: 
     - C++
     - Low Latency
-	- Algorithmic Trading
+    - Algorithmic Trading
 ---
 
 <span style="color: red">Page under development! Please check out the source link.</span>

@@ -2,8 +2,8 @@ navbar_entries:
   - title: about
     url: about
 
-  - title: experiences
-    url: "#experiences"
+  # - title: experiences
+  #   url: "#experiences"
 
   - title: projects
     url: "#projects"
@@ -80,23 +80,23 @@ experience_entries:
 
 project_entries:
   - title: Intelligible AI
-    url: intelligible-ai
+    url: https://intelligible.ai
     desc: AI for explaining tabular datasets. Founded by prev collaborators at MIT
 
   - title: Consensus for LLMs
-    url: consensus-ai
+    url: https://github.com/aaron10l/consensus-ai
     desc: a web app leveraging LLM voting for better responses, made at berkeley ai hackathon
 
   - title: Contextualized.ml
-    url: contextualized-ml # hazel-post
+    url: https://github.com/cnellington/Contextualized
     desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
 
   - title: Matching Engine
-    url: matching-engine
+    url: https://github.com/aaron10l/matching-engine
     desc: a fast order matching engine written in c++
-    
+
   - title: Free Lunch Bot
-    url: reddit-free-lunch
+    url: https://github.com/aaron10l/free-lunch
     desc: a bot that lets you know when free food is posted on reddit
 
 education_entries:
