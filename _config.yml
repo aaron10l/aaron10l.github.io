@@ -4,7 +4,7 @@ title: Aaron Alvarez
 author: Aaron Alvarez
 email: aaronalvarez7394@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm Aaron — a software engineer and computer science student at the University of Cincinnati. I've interned at Google, Netflix (2×), Intelligible AI, the Chan Zuckerberg Biohub SF, and have conducted research at MIT and Cincinnati Children's Hospital.
+  I'm Aaron — a software engineer and computer science student at the University of Cincinnati. I've interned at Google, Netflix (2x), Intelligible AI, the Chan Zuckerberg Biohub SF, and have conducted research at MIT and Cincinnati Children's Hospital.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aaronalvarez.me/" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: aaronisme
