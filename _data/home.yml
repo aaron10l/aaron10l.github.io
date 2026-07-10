@@ -84,12 +84,12 @@ project_entries:
   - title: Consensus for LLMs
     url: https://github.com/aaron10l/consensus-ai
     desc: a web app leveraging LLM voting for better responses, made at berkeley ai hackathon
-    image: https://picsum.photos/seed/consensus/48/48
+    image: /images/default_project_pic.jpg
 
   - title: Contextualized.ml
     url: https://github.com/cnellington/Contextualized
     desc: a contextualized machine learning toolkit for easy-to-use, understandable ML
-    image: https://picsum.photos/seed/contextualized/48/48
+    image: /images/contextualized_logo.jpg
 
   # - title: Matching Engine
   #   url: https://github.com/aaron10l/matching-engine
@@ -98,7 +98,7 @@ project_entries:
   - title: Free Lunch Bot
     url: https://github.com/aaron10l/free-lunch
     desc: a bot that lets you know when free food is posted on reddit
-    image: https://picsum.photos/seed/freelunch/48/48
+    image: /images/default_project_pic.jpg
 
 education_entries:
   - title: University of Cincinnati

@@ -21,7 +21,7 @@ layout: default
 <ul class="project-list">
   {% for item in site.data.home.project_entries %}
   <li>
-    {% if item.image %}<img src="{{ item.image }}" alt="{{ item.title }}" class="project-thumb">{% endif %}
+    <img src="{{ item.image | default: '/images/default_project_pic.jpg' }}" alt="{{ item.title }}" class="project-thumb">
     <div>
       <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
       {% if item.desc %}<span class="project-desc">{{ item.desc }}</span>{% endif %}
