@@ -8,11 +8,11 @@ navbar_entries:
   - title: projects
     url: "#projects"
 
-  - title: blog
-    url: blog
-
   - title: research
     url: "#research"
+
+  - title: blog
+    url: blog
 
 experience_entries:
   - title: Software Engineer Intern, Google

@@ -44,17 +44,17 @@ collection=site.data.home.experience_entries %} {% endif %}
 {% include vertical_list.html collection=site.data.home.misc_entries %} {% endif
 %}
 
+{% if site.theme_config.show_publications == true %}
+<h2 id="research">Research</h2>
+{% include vertical_list.html collection=site.data.home.publication_entries %}
+{% endif %}
+
 <h2 id="blog">Blog</h2>
 {% include post_list.html %} {% if site.theme_config.show_old_projects == true
 %}
 <h2>Old Projects</h2>
 {% include card_list.html collection=site.data.home.old_project_entries %} {%
 endif %}
-
-{% if site.theme_config.show_publications == true %}
-<h2 id="research">Research</h2>
-{% include vertical_list.html collection=site.data.home.publication_entries %}
-{% endif %}
 
 {% if site.theme_config.show_footer == true %} {% include footer.html
 %} {% endif %}
