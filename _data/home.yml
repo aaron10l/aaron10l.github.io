@@ -11,8 +11,8 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: publications
-    url: "#publications"
+  - title: research
+    url: "#research"
 
 experience_entries:
   - title: Software Engineer Intern, Google
@@ -123,11 +123,14 @@ footer_entries:
     icon: fab fa-twitter
 
 publication_entries:
-  - title: "Contextualized: Heterogeneous Modeling Toolbox — Journal of Open Source Software (2024)"
-    url: https://joss.theoj.org/papers/10.21105/joss.06469
+  - title: "Improving Claude Opus from 74% to 100% on Data Science Tasks — Intelligible AI Blog (2026)"
+    url: https://www.intelligible.ai/blog/improving-claude-opus
 
   - title: "SPPIDER-seq: Sequence-based Partner-aware Predictor of Protein-Protein Interaction Sites — Bioinformatics (2026)"
     url: https://academic.oup.com/bioinformatics/article/42/7/btag388/8707840
+
+  - title: "Contextualized: Heterogeneous Modeling Toolbox — Journal of Open Source Software (2024)"
+    url: https://joss.theoj.org/papers/10.21105/joss.06469
 
 misc_entries:
   - title: example
