@@ -87,6 +87,23 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.post-cover {
+  margin: 0.5em 0 1.5em;
+}
+
+.post-cover img {
+  width: auto;
+  max-width: 72%;
+  max-height: 48vh;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .post-cover img {
+    max-width: 90%;
+  }
+}
 html {
   --bg: #fff;
   --bg-secondary: #f8f8f8;

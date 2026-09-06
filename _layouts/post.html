@@ -7,8 +7,13 @@ layout: default
   {{ page.title }} {% if page.highlight %} <mark>{{ page.highlight }}</mark>{%
   endif %}
 </h1>
-{% include project_links.html %} {{
-content }}
+{% include project_links.html %}
+{% if page.cover %}
+  <p class="post-cover">
+    <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" />
+  </p>
+{% endif %}
+{{ content }}
 
 <!-- {% if page.timeline_collection %}
   {% include timeline.html collection_name=page.timeline_collection collection=site.data.home.education_entries %}

@@ -32,16 +32,25 @@
   <meta name="profile:username" content="aaron10l">
   <meta name="og:title" content="{{ title }}">
   <meta name="og:type" content="website">
-  <meta property="og:image" content="https://aaronalvarez.me/images/favicon/android-chrome-512x512.png">
+  {% if page.cover %}
+    <meta property="og:image" content="{{ page.cover | absolute_url }}">
+  {% else %}
+    <meta property="og:image" content="https://aaronalvarez.me/images/favicon/android-chrome-512x512.png">
+  {% endif %}
   <meta name="og:description" content="{{ site.description }}">
   <meta name="og:locale" content="en_US">
   <meta name="og:site_name" content="{{ site.title }}">
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
+  {% if page.cover %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ page.cover | absolute_url }}">
+  {% else %}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://aaronalvarez.me/images/favicon/android-chrome-512x512.png">
+  {% endif %}
   <meta name="twitter:title" content="{{ title }}">
   <meta name="twitter:description" content="{{ site.description }}">
-  <meta name="twitter:image" content="https://aaronalvarez.me/images/favicon/android-chrome-512x512.png">
   <meta name="twitter:creator" content="@aaron10l">
   <meta name="twitter:site" content="@aaron10l">
 
@@ -57,12 +66,20 @@
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']]
       }
     });
   </script>
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <script type="text/javascript">
+    document.addEventListener('turbolinks:load', function() {
+      if (window.MathJax) {
+        MathJax.Hub.Queue(['Typeset', MathJax.Hub]);
+      }
+    });
   </script>
   {% endif %}
 </head>
