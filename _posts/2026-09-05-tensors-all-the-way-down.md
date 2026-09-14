@@ -126,14 +126,12 @@ From chance to "mostly reads digits" in a few hundred passes:
 
 ![Train accuracy over 500 full-batch steps, with validation and test accuracy as reference lines](/images/blog/tensors-all-the-way-down/training.png)
 
-Training accuracy went 12.7% → 66.6% → 77.0% → 81.1% → 83.4% at iterations 0 / 100 / 200 / 300 / 400. After 500 iterations, validation accuracy was **84.6%** and test accuracy was **85.3%**. A random guesser sits at 10%. A well-tuned CNN on MNIST sits above 99%. This model has ten hidden units, no convolutions, no data augmentation, and vanilla gradient descent, so the mid-80s is about right: it has learned something real about digit shapes, and it has also hit the ceiling of a network this small.
+Training accuracy went 12.7% → 66.6% → 77.0% → 81.1% → 83.4% at iterations 0 / 100 / 200 / 300 / 400. After 500 iterations, validation accuracy was **84.6%** and test accuracy was **85.3%**. A random guesser sits at 10%. A well-tuned CNN on MNIST sits above 99%. This model has ten hidden units, no convolutions, no data augmentation, and vanilla gradient descent, so the mid-80s seems about right: it has learned something real about digit shapes, and it has also hit the ceiling of a network this small.
 
-Held-out accuracy landing a point or two above the last printed training number isn't a miracle. The last training print is at iteration 400, the model is underfitting rather than memorizing, and 4,200 test examples still have some sampling noise. Train, val, and test all sit in the same neighborhood, which is the check that matters.
-
-After poking into failure modes, it's usually the obvious human confusions, like a 4 that looks like a 9, a 3 that leans toward a 5. Ten hidden units have to compress 784 pixels into a tiny code, so there's only so much handwriting variation they can spend capacity on.
+After poking into failure modes, I found that it's usually the obvious human confusions, like a 4 that looks like a 9, a 3 that leans toward a 5. Ten hidden units have to compress 784 pixels into a tiny code, so there's only so much handwriting variation they can spend capacity on.
 
 ## Why write this in 2026
 
-None of this is "useful" by modern standards, obviously. PyTorch fuses the matmuls, runs them on a GPU, hands you Adam for free. A `nn.Linear` is $$Z = WA + b$$. `F.relu` is the kink. `F.cross_entropy` is softmax plus $$J$$, with $$A^{[L]} - Y$$ sitting underneath. `loss.backward()` is the loop over the layers in reverse. Doing it by hand doesn't get you a better classifier, but it gets you a better understanding of what's going on under the hood. Once you've actually written it, "add a layer" stops being an abstraction and just means appending a tensor.
+None of this is "useful" by modern standards, obviously. Modern PyTorch/Tensorflow fuses the matmuls, runs them on a GPU, hands you Adam for free. Doing it by hand definitely resulted in a worse classifier, but it gave me a better understanding of what's going on under the hood.
 
-There's a lot of room to expand on this — mini-batches, decent initialization, Adam, more hidden units, convolutions. MNIST will roll over for any of those. Maybe something for a future blog post :P
+There's a lot of room to expand on this — mini-batches, decent initialization, Adam, more hidden units, convolutions. Maybe something for a future blog post :P
