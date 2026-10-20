@@ -123,6 +123,9 @@ footer_entries:
     icon: fab fa-twitter
 
 publication_entries:
+  - title: "SleuthBench: Benchmarking Statistical LLM Evaluation Using Tabular Hidden Signals — ICLR (in review)"
+    url: https://arxiv.org/html/2609.34228v1
+
   - title: "Improving Claude Opus from 74% to 100% on Data Science Tasks — Intelligible AI Blog (2026)"
     url: https://www.intelligible.ai/blog/improving-claude-opus
 
