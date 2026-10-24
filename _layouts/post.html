@@ -13,7 +13,10 @@ layout: default
     <img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" />
   </p>
 {% endif %}
+{% include post_toc.html %}
+<div class="post-body">
 {{ content }}
+</div>
 
 <!-- {% if page.timeline_collection %}
   {% include timeline.html collection_name=page.timeline_collection collection=site.data.home.education_entries %}
