@@ -205,7 +205,7 @@ Generally, you want to be compute-bound because this means you are getting the f
 
 Long story short, TPUs are powerful matrix multipliers. Not necessarily faster than GPUs chip for chip, but built to scale across thousands of chips. I hope this blog post helped demystify them a bit, and encourage you to dig more into any parts that interest you. Some areas I plan to dig into next:
 
-- Ragged Paged Attention
+- [Ragged Paged Attention](https://arxiv.org/html/2604.15464v1)
 - Benchmarking Attention Kernels
 
 #### Relevant works
