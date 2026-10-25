@@ -96,6 +96,10 @@ img {
   margin: 0.5em 0 1.5em;
 }
 
+.post-body a {
+  overflow-wrap: anywhere;
+}
+
 .post-cover img {
   width: auto;
   max-width: 72%;
