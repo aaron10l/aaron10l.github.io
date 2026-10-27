@@ -49,7 +49,7 @@ The main things to remember however, are TensorCore → Die → Chip.
 
 ![A TPU7x chip: a die containing a TensorCore (two MXUs, VPU, scalar unit, VMEM, SMEM, DMA engine), with HBM stacks off-die in the same package](/images/blog/what-even-is-a-tpu/tpu_architecture.png)
 
-Note: 64 MiB per TensorCore, 128 MiB per chip.
+Note: 64 MiB VMEM per TensorCore, 128 MiB per chip.
 
 ### TensorCore
 
