@@ -49,6 +49,8 @@ The main things to remember however, are TensorCore → Die → Chip.
 
 ![A TPU7x chip: a die containing a TensorCore (two MXUs, VPU, scalar unit, VMEM, SMEM, DMA engine), with HBM stacks off-die in the same package](/images/blog/what-even-is-a-tpu/tpu_architecture.png)
 
+Note: 64 MiB per TensorCore, 128 MiB per chip.
+
 ### TensorCore
 
 A Chip will have one or two (depends on generation) “engines”, dubbed TensorCores. These TensorCores have 5 main components (3 are compute units, 2 are memory units). By “unit” I mean “thing”.
@@ -212,3 +214,4 @@ Long story short, TPUs are powerful matrix multipliers. I hope this blog post he
 
 - <https://jax-ml.github.io/scaling-book/>
 - <https://www.youtube.com/watch?v=xIBMJJ0CPqk&pp=ygUZZ2V0dGluZyBzdGFydGVkIGl3dGggdHB1cw%3D%3D>
+- <https://docs.cloud.google.com/tpu/docs/tpu7x>
